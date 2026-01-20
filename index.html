@@ -266,7 +266,7 @@
 
         .problem-solution-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 40px;
         }
 
@@ -924,6 +924,14 @@
             .results-grid,
             .problem-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .problem-solution-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .problem-box, .solution-box {
+                padding: 32px 24px;
             }
 
             .rating-scale {
