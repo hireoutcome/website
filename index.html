@@ -944,6 +944,63 @@
             }
         }
     </style>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "HireOutcome",
+          "url": "https://hireoutcome.com",
+          "logo": "https://hireoutcome.com/HireOutcome-Full-W.png",
+          "description": "Fractional COO services for marketing agencies looking to scale to $5M+ revenue",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Sales",
+            "url": "https://hireoutcome.com#consultation"
+          },
+          "sameAs": []
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "HireOutcome - Fractional COO Services",
+          "image": "https://hireoutcome.com/HireOutcome-Full-W.png",
+          "description": "We build the systems, team structure, and processes that let you focus on strategy while your agency runs itself. Scale your marketing agency to $5M+ without becoming the bottleneck.",
+          "provider": {
+            "@type": "Organization",
+            "name": "HireOutcome"
+          },
+          "areaServed": "Worldwide",
+          "serviceType": [
+            "Fractional COO",
+            "Operations Management",
+            "Business Systems Design",
+            "Team Structure & Hiring",
+            "Strategic Planning",
+            "Process Automation"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "name": "Free Strategy Call",
+            "description": "30-minute operational audit to identify your biggest bottleneck"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "HireOutcome",
+          "url": "https://hireoutcome.com",
+          "description": "Scale your marketing agency to $5M+ with fractional COO services",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://hireoutcome.com/#consultation",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header -->
